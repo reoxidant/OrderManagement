@@ -19,6 +19,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = UINavigationController(rootViewController: ViewController())
         window?.makeKeyAndVisible()
         
+        if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+            
+            // Create a new object
+            let managedObject = Customer()
+            
+            // Set value attribute
+            managedObject.name = "Microsoft"
+            
+            // Get value from attrubute
+            let name = managedObject.name
+            print("name = \(name!)")
+            
+            // Write the NSObjectModel to database
+            // self.saveContext()
+            
+            // Fetch NSObjectModel from database
+            let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Customer")
+            do {
+                let results = try CoreDataManager.shared.managedObjectContext.fetch(fetchRequest) as! [Customer]
+                for result in results {
+                    let value = result.name!
+                    if value == "" {
+                        CoreDataManager.shared.managedObjectContext.delete(result)
+                        self.saveContext()
+                    }
+                    print("name - \(value)")
+                }
+            } catch let error {
+                print(error.localizedDescription)
+            }
+        }
+        
         // Override point for customization after application launch.
         return true
     }
