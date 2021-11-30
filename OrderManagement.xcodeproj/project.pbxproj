@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44DBCF9427556FF2001BD438 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCF9327556FF2001BD438 /* CoreDataManager.swift */; };
 		44EDE6E927550060006FDB63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE6E827550060006FDB63 /* AppDelegate.swift */; };
-		44EDE6EB27550060006FDB63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE6EA27550060006FDB63 /* SceneDelegate.swift */; };
 		44EDE6ED27550060006FDB63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE6EC27550060006FDB63 /* ViewController.swift */; };
-		44EDE6F027550060006FDB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EDE6EE27550060006FDB63 /* Main.storyboard */; };
 		44EDE6F327550060006FDB63 /* OrderManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE6F127550060006FDB63 /* OrderManagement.xcdatamodeld */; };
 		44EDE6F527550062006FDB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EDE6F427550062006FDB63 /* Assets.xcassets */; };
 		44EDE6F827550062006FDB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44EDE6F627550062006FDB63 /* LaunchScreen.storyboard */; };
+		44EDE70727552543006FDB63 /* Service+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE6FF27552543006FDB63 /* Service+CoreDataClass.swift */; };
+		44EDE70827552543006FDB63 /* Service+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE70027552543006FDB63 /* Service+CoreDataProperties.swift */; };
+		44EDE70927552543006FDB63 /* RowOfOrder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE70127552543006FDB63 /* RowOfOrder+CoreDataClass.swift */; };
+		44EDE70A27552543006FDB63 /* RowOfOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE70227552543006FDB63 /* RowOfOrder+CoreDataProperties.swift */; };
+		44EDE70B27552543006FDB63 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE70327552543006FDB63 /* Order+CoreDataClass.swift */; };
+		44EDE70C27552543006FDB63 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE70427552543006FDB63 /* Order+CoreDataProperties.swift */; };
+		44EDE70D27552543006FDB63 /* Customer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE70527552543006FDB63 /* Customer+CoreDataClass.swift */; };
+		44EDE70E27552543006FDB63 /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE70627552543006FDB63 /* Customer+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44DBCF9327556FF2001BD438 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		44EDE6E527550060006FDB63 /* OrderManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EDE6E827550060006FDB63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44EDE6EA27550060006FDB63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		44EDE6EC27550060006FDB63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		44EDE6EF27550060006FDB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44EDE6F227550060006FDB63 /* OrderManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrderManagement.xcdatamodel; sourceTree = "<group>"; };
 		44EDE6F427550062006FDB63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44EDE6F727550062006FDB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44EDE6F927550062006FDB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44EDE6FF27552543006FDB63 /* Service+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataClass.swift"; sourceTree = "<group>"; };
+		44EDE70027552543006FDB63 /* Service+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Service+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		44EDE70127552543006FDB63 /* RowOfOrder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RowOfOrder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		44EDE70227552543006FDB63 /* RowOfOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RowOfOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		44EDE70327552543006FDB63 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		44EDE70427552543006FDB63 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		44EDE70527552543006FDB63 /* Customer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		44EDE70627552543006FDB63 /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,14 @@
 		44EDE6DC27550060006FDB63 = {
 			isa = PBXGroup;
 			children = (
+				44EDE6FF27552543006FDB63 /* Service+CoreDataClass.swift */,
+				44EDE70027552543006FDB63 /* Service+CoreDataProperties.swift */,
+				44EDE70127552543006FDB63 /* RowOfOrder+CoreDataClass.swift */,
+				44EDE70227552543006FDB63 /* RowOfOrder+CoreDataProperties.swift */,
+				44EDE70327552543006FDB63 /* Order+CoreDataClass.swift */,
+				44EDE70427552543006FDB63 /* Order+CoreDataProperties.swift */,
+				44EDE70527552543006FDB63 /* Customer+CoreDataClass.swift */,
+				44EDE70627552543006FDB63 /* Customer+CoreDataProperties.swift */,
 				44EDE6E727550060006FDB63 /* OrderManagement */,
 				44EDE6E627550060006FDB63 /* Products */,
 			);
@@ -59,9 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				44EDE6E827550060006FDB63 /* AppDelegate.swift */,
-				44EDE6EA27550060006FDB63 /* SceneDelegate.swift */,
+				44DBCF9327556FF2001BD438 /* CoreDataManager.swift */,
 				44EDE6EC27550060006FDB63 /* ViewController.swift */,
-				44EDE6EE27550060006FDB63 /* Main.storyboard */,
 				44EDE6F427550062006FDB63 /* Assets.xcassets */,
 				44EDE6F627550062006FDB63 /* LaunchScreen.storyboard */,
 				44EDE6F927550062006FDB63 /* Info.plist */,
@@ -130,7 +151,6 @@
 			files = (
 				44EDE6F827550062006FDB63 /* LaunchScreen.storyboard in Resources */,
 				44EDE6F527550062006FDB63 /* Assets.xcassets in Resources */,
-				44EDE6F027550060006FDB63 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +161,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44EDE70C27552543006FDB63 /* Order+CoreDataProperties.swift in Sources */,
+				44EDE70E27552543006FDB63 /* Customer+CoreDataProperties.swift in Sources */,
 				44EDE6ED27550060006FDB63 /* ViewController.swift in Sources */,
+				44EDE70A27552543006FDB63 /* RowOfOrder+CoreDataProperties.swift in Sources */,
+				44EDE70827552543006FDB63 /* Service+CoreDataProperties.swift in Sources */,
 				44EDE6F327550060006FDB63 /* OrderManagement.xcdatamodeld in Sources */,
+				44DBCF9427556FF2001BD438 /* CoreDataManager.swift in Sources */,
+				44EDE70D27552543006FDB63 /* Customer+CoreDataClass.swift in Sources */,
+				44EDE70B27552543006FDB63 /* Order+CoreDataClass.swift in Sources */,
 				44EDE6E927550060006FDB63 /* AppDelegate.swift in Sources */,
-				44EDE6EB27550060006FDB63 /* SceneDelegate.swift in Sources */,
+				44EDE70927552543006FDB63 /* RowOfOrder+CoreDataClass.swift in Sources */,
+				44EDE70727552543006FDB63 /* Service+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		44EDE6EE27550060006FDB63 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				44EDE6EF27550060006FDB63 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		44EDE6F627550062006FDB63 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +317,6 @@
 				INFOPLIST_FILE = OrderManagement/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +343,6 @@
 				INFOPLIST_FILE = OrderManagement/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
