@@ -20,6 +20,18 @@ class CoreDataManager {
         NSEntityDescription.entity(forEntityName: name, in: managedObjectContext)!
     }
     
+    // Fetched Results Controller by Entity Name
+    
+    func fetchedResultsController(entityName: String, keySortDescriptor: String) -> NSFetchedResultsController<NSFetchRequestResult> {
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entityName)
+        let sortDescriptor = NSSortDescriptor(key: keySortDescriptor, ascending: true)
+        fetchRequest.sortDescriptors = [sortDescriptor]
+        return NSFetchedResultsController<NSFetchRequestResult>(fetchRequest: fetchRequest,
+                                                                                        managedObjectContext: CoreDataManager.shared.managedObjectContext,
+                                                                                        sectionNameKeyPath: nil,
+                                                                                        cacheName: nil)
+    }
+    
     // MARK: Core Data Stack
     
     lazy var applocationDocumentDirectory: NSURL = {
