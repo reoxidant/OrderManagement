@@ -17,9 +17,9 @@ public class Order: NSManagedObject {
                   insertInto: CoreDataManager.shared.managedObjectContext)
     }
     
-    class func getRowsOfOrder(order: Order) -> NSFetchedResultsController<NSFetchRequestResult> {
+    class func getRowsOfOrder(order: Order) -> NSFetchedResultsController<RowOfOrder> {
         
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "RowOfOrder")
+        let fetchRequest = NSFetchRequest<RowOfOrder>(entityName: "RowOfOrder")
         
         let sortDescriptor = NSSortDescriptor(key: "service.name", ascending: true)
         fetchRequest.sortDescriptors = [sortDescriptor]
