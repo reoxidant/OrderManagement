@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44306AB9275748EC00863DB9 /* ServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44306AB8275748EC00863DB9 /* ServiceViewController.swift */; };
+		44306ABD2757533800863DB9 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44306ABC2757533800863DB9 /* OrderViewController.swift */; };
+		44306ABF2757534600863DB9 /* OrdersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44306ABE2757534600863DB9 /* OrdersTableViewController.swift */; };
+		44306AC52757AEFE00863DB9 /* RowOfOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44306AC42757AEFE00863DB9 /* RowOfOrderViewController.swift */; };
+		44306AC72757D7EB00863DB9 /* ReportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44306AC62757D7EB00863DB9 /* ReportTableViewController.swift */; };
 		44DBCF9427556FF2001BD438 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCF9327556FF2001BD438 /* CoreDataManager.swift */; };
+		44DBCF9627564867001BD438 /* CustomersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCF9527564867001BD438 /* CustomersTableViewController.swift */; };
+		44DBCF9C275652C7001BD438 /* CustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCF9B275652C7001BD438 /* CustomerViewController.swift */; };
+		44DBCF9E27573FA1001BD438 /* ServicesTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCF9D27573FA1001BD438 /* ServicesTableTableViewController.swift */; };
 		44EDE6E927550060006FDB63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE6E827550060006FDB63 /* AppDelegate.swift */; };
 		44EDE6ED27550060006FDB63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE6EC27550060006FDB63 /* ViewController.swift */; };
 		44EDE6F327550060006FDB63 /* OrderManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44EDE6F127550060006FDB63 /* OrderManagement.xcdatamodeld */; };
@@ -24,7 +32,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44306AB8275748EC00863DB9 /* ServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewController.swift; sourceTree = "<group>"; };
+		44306ABC2757533800863DB9 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		44306ABE2757534600863DB9 /* OrdersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewController.swift; sourceTree = "<group>"; };
+		44306AC42757AEFE00863DB9 /* RowOfOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowOfOrderViewController.swift; sourceTree = "<group>"; };
+		44306AC62757D7EB00863DB9 /* ReportTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReportTableViewController.swift; path = OrderManagement/ViewController/Report/ReportTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		44DBCF9327556FF2001BD438 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		44DBCF9527564867001BD438 /* CustomersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomersTableViewController.swift; sourceTree = "<group>"; };
+		44DBCF9B275652C7001BD438 /* CustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerViewController.swift; sourceTree = "<group>"; };
+		44DBCF9D27573FA1001BD438 /* ServicesTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTableTableViewController.swift; sourceTree = "<group>"; };
 		44EDE6E527550060006FDB63 /* OrderManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EDE6E827550060006FDB63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44EDE6EC27550060006FDB63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,17 +69,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44EDE6DC27550060006FDB63 = {
+		44127D54275890F90047CD2A /* Report */ = {
 			isa = PBXGroup;
 			children = (
+				44306AC62757D7EB00863DB9 /* ReportTableViewController.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		44306ABA2757519500863DB9 /* Customers */ = {
+			isa = PBXGroup;
+			children = (
+				44DBCF9527564867001BD438 /* CustomersTableViewController.swift */,
+				44DBCF9B275652C7001BD438 /* CustomerViewController.swift */,
+			);
+			path = Customers;
+			sourceTree = "<group>";
+		};
+		44306ABB275751A000863DB9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				44DBCF9D27573FA1001BD438 /* ServicesTableTableViewController.swift */,
+				44306AB8275748EC00863DB9 /* ServiceViewController.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		44306AC02757A61700863DB9 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				44306AC42757AEFE00863DB9 /* RowOfOrderViewController.swift */,
+				44306ABC2757533800863DB9 /* OrderViewController.swift */,
+				44306ABE2757534600863DB9 /* OrdersTableViewController.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		44DBCF97275651A0001BD438 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				44EDE6F127550060006FDB63 /* OrderManagement.xcdatamodeld */,
+				44EDE70127552543006FDB63 /* RowOfOrder+CoreDataClass.swift */,
 				44EDE6FF27552543006FDB63 /* Service+CoreDataClass.swift */,
 				44EDE70027552543006FDB63 /* Service+CoreDataProperties.swift */,
-				44EDE70127552543006FDB63 /* RowOfOrder+CoreDataClass.swift */,
 				44EDE70227552543006FDB63 /* RowOfOrder+CoreDataProperties.swift */,
 				44EDE70327552543006FDB63 /* Order+CoreDataClass.swift */,
 				44EDE70427552543006FDB63 /* Order+CoreDataProperties.swift */,
 				44EDE70527552543006FDB63 /* Customer+CoreDataClass.swift */,
 				44EDE70627552543006FDB63 /* Customer+CoreDataProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		44DBCF98275651BF001BD438 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				44EDE6EC27550060006FDB63 /* ViewController.swift */,
+				44306ABA2757519500863DB9 /* Customers */,
+				44306ABB275751A000863DB9 /* Services */,
+				44306AC02757A61700863DB9 /* Orders */,
+				44127D54275890F90047CD2A /* Report */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		44DBCF99275651D1001BD438 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44DBCF9327556FF2001BD438 /* CoreDataManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44EDE6DC27550060006FDB63 = {
+			isa = PBXGroup;
+			children = (
+				44DBCF97275651A0001BD438 /* CoreData */,
 				44EDE6E727550060006FDB63 /* OrderManagement */,
 				44EDE6E627550060006FDB63 /* Products */,
 			);
@@ -80,13 +161,12 @@
 		44EDE6E727550060006FDB63 /* OrderManagement */ = {
 			isa = PBXGroup;
 			children = (
-				44EDE6E827550060006FDB63 /* AppDelegate.swift */,
-				44DBCF9327556FF2001BD438 /* CoreDataManager.swift */,
-				44EDE6EC27550060006FDB63 /* ViewController.swift */,
-				44EDE6F427550062006FDB63 /* Assets.xcassets */,
+				44DBCF98275651BF001BD438 /* ViewController */,
+				44DBCF99275651D1001BD438 /* Model */,
 				44EDE6F627550062006FDB63 /* LaunchScreen.storyboard */,
+				44EDE6E827550060006FDB63 /* AppDelegate.swift */,
+				44EDE6F427550062006FDB63 /* Assets.xcassets */,
 				44EDE6F927550062006FDB63 /* Info.plist */,
-				44EDE6F127550060006FDB63 /* OrderManagement.xcdatamodeld */,
 			);
 			path = OrderManagement;
 			sourceTree = "<group>";
@@ -161,18 +241,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44306AC52757AEFE00863DB9 /* RowOfOrderViewController.swift in Sources */,
+				44306AC72757D7EB00863DB9 /* ReportTableViewController.swift in Sources */,
 				44EDE70C27552543006FDB63 /* Order+CoreDataProperties.swift in Sources */,
 				44EDE70E27552543006FDB63 /* Customer+CoreDataProperties.swift in Sources */,
 				44EDE6ED27550060006FDB63 /* ViewController.swift in Sources */,
 				44EDE70A27552543006FDB63 /* RowOfOrder+CoreDataProperties.swift in Sources */,
 				44EDE70827552543006FDB63 /* Service+CoreDataProperties.swift in Sources */,
 				44EDE6F327550060006FDB63 /* OrderManagement.xcdatamodeld in Sources */,
+				44306AB9275748EC00863DB9 /* ServiceViewController.swift in Sources */,
+				44DBCF9C275652C7001BD438 /* CustomerViewController.swift in Sources */,
+				44306ABF2757534600863DB9 /* OrdersTableViewController.swift in Sources */,
+				44306ABD2757533800863DB9 /* OrderViewController.swift in Sources */,
+				44DBCF9627564867001BD438 /* CustomersTableViewController.swift in Sources */,
 				44DBCF9427556FF2001BD438 /* CoreDataManager.swift in Sources */,
 				44EDE70D27552543006FDB63 /* Customer+CoreDataClass.swift in Sources */,
 				44EDE70B27552543006FDB63 /* Order+CoreDataClass.swift in Sources */,
 				44EDE6E927550060006FDB63 /* AppDelegate.swift in Sources */,
 				44EDE70927552543006FDB63 /* RowOfOrder+CoreDataClass.swift in Sources */,
 				44EDE70727552543006FDB63 /* Service+CoreDataClass.swift in Sources */,
+				44DBCF9E27573FA1001BD438 /* ServicesTableTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
