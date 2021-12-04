@@ -340,7 +340,7 @@ extension OrderViewController: NSFetchedResultsControllerDelegate {
         case .update:
             if let indexPath = indexPath,
                 let cell = tableView.cellForRow(at: indexPath),
-                let rowOfOrder = tableFetchedResults?.object(at: indexPath) as? RowOfOrder {
+                let rowOfOrder = tableFetchedResults?.object(at: indexPath) {
                 
                 let nameOfService = rowOfOrder.service?.name ?? "-- Unknown --"
                 cell.textLabel?.text = nameOfService + " - " + "\(rowOfOrder.sum)"
